@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+efdefc772c88e60e7a976530750e24e9 CMakeFiles/otello_client_automoc

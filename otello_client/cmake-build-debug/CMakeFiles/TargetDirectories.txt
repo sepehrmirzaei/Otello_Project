@@ -1,0 +1,4 @@
+/home/sepehr007/OtelloProject/otello_client/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sepehr007/OtelloProject/otello_client/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sepehr007/OtelloProject/otello_client/cmake-build-debug/CMakeFiles/otello_client.dir
+/home/sepehr007/OtelloProject/otello_client/cmake-build-debug/CMakeFiles/otello_client_automoc.dir
