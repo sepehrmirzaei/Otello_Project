@@ -136,6 +136,33 @@ otello_client_automoc/fast:
 	$(MAKE) -f CMakeFiles/otello_client_automoc.dir/build.make CMakeFiles/otello_client_automoc.dir/build
 .PHONY : otello_client_automoc/fast
 
+SourceFiles/otelloboard.o: SourceFiles/otelloboard.cpp.o
+
+.PHONY : SourceFiles/otelloboard.o
+
+# target to build an object file
+SourceFiles/otelloboard.cpp.o:
+	$(MAKE) -f CMakeFiles/otello_client.dir/build.make CMakeFiles/otello_client.dir/SourceFiles/otelloboard.cpp.o
+.PHONY : SourceFiles/otelloboard.cpp.o
+
+SourceFiles/otelloboard.i: SourceFiles/otelloboard.cpp.i
+
+.PHONY : SourceFiles/otelloboard.i
+
+# target to preprocess a source file
+SourceFiles/otelloboard.cpp.i:
+	$(MAKE) -f CMakeFiles/otello_client.dir/build.make CMakeFiles/otello_client.dir/SourceFiles/otelloboard.cpp.i
+.PHONY : SourceFiles/otelloboard.cpp.i
+
+SourceFiles/otelloboard.s: SourceFiles/otelloboard.cpp.s
+
+.PHONY : SourceFiles/otelloboard.s
+
+# target to generate assembly for a file
+SourceFiles/otelloboard.cpp.s:
+	$(MAKE) -f CMakeFiles/otello_client.dir/build.make CMakeFiles/otello_client.dir/SourceFiles/otelloboard.cpp.s
+.PHONY : SourceFiles/otelloboard.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -200,6 +227,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... otello_client"
 	@echo "... otello_client_automoc"
+	@echo "... SourceFiles/otelloboard.o"
+	@echo "... SourceFiles/otelloboard.i"
+	@echo "... SourceFiles/otelloboard.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -122,6 +122,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/sepehr007/OtelloProject/otello_client/HeaderFiles/otelloboard.h">
+			<Option target="otello_client"/>
+		</Unit>
+		<Unit filename="/home/sepehr007/OtelloProject/otello_client/SourceFiles/otelloboard.cpp">
+			<Option target="otello_client"/>
+		</Unit>
 		<Unit filename="/home/sepehr007/OtelloProject/otello_client/main.cpp">
 			<Option target="otello_client"/>
 		</Unit>

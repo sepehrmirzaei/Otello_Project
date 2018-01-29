@@ -8,7 +8,7 @@ set(CMAKE_PREFIX_PATH /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/)
 
 find_package(Qt5 REQUIRED COMPONENTS Core Widgets Gui Network Multimedia)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp HeaderFiles/otelloboard.h SourceFiles/otelloboard.cpp)
 
 add_executable(${CMAKE_PROJECT_NAME} ${SOURCE_FILES})
 target_link_libraries(${CMAKE_PROJECT_NAME} Qt5::Core Qt5::Widgets Qt5::Gui Qt5::Network Qt5::Multimedia)
