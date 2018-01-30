@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/sepehr007/OtelloProject/otello_client/SourceFiles/judgement.cpp" "/home/sepehr007/OtelloProject/otello_client/cmake-build-debug/CMakeFiles/otello_client.dir/SourceFiles/judgement.cpp.o"
+  "/home/sepehr007/OtelloProject/otello_client/SourceFiles/loginmenu.cpp" "/home/sepehr007/OtelloProject/otello_client/cmake-build-debug/CMakeFiles/otello_client.dir/SourceFiles/loginmenu.cpp.o"
   "/home/sepehr007/OtelloProject/otello_client/SourceFiles/otelloboard.cpp" "/home/sepehr007/OtelloProject/otello_client/cmake-build-debug/CMakeFiles/otello_client.dir/SourceFiles/otelloboard.cpp.o"
   "/home/sepehr007/OtelloProject/otello_client/main.cpp" "/home/sepehr007/OtelloProject/otello_client/cmake-build-debug/CMakeFiles/otello_client.dir/main.cpp.o"
   "/home/sepehr007/OtelloProject/otello_client/cmake-build-debug/otello_client_automoc.cpp" "/home/sepehr007/OtelloProject/otello_client/cmake-build-debug/CMakeFiles/otello_client.dir/otello_client_automoc.cpp.o"

@@ -122,7 +122,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/sepehr007/OtelloProject/otello_client/HeaderFiles/judgement.h">
+			<Option target="otello_client"/>
+		</Unit>
+		<Unit filename="/home/sepehr007/OtelloProject/otello_client/HeaderFiles/loginmenu.h">
+			<Option target="otello_client"/>
+		</Unit>
 		<Unit filename="/home/sepehr007/OtelloProject/otello_client/HeaderFiles/otelloboard.h">
+			<Option target="otello_client"/>
+		</Unit>
+		<Unit filename="/home/sepehr007/OtelloProject/otello_client/SourceFiles/judgement.cpp">
+			<Option target="otello_client"/>
+		</Unit>
+		<Unit filename="/home/sepehr007/OtelloProject/otello_client/SourceFiles/loginmenu.cpp">
 			<Option target="otello_client"/>
 		</Unit>
 		<Unit filename="/home/sepehr007/OtelloProject/otello_client/SourceFiles/otelloboard.cpp">

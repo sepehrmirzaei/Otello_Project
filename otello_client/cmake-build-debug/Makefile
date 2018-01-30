@@ -136,6 +136,60 @@ otello_client_automoc/fast:
 	$(MAKE) -f CMakeFiles/otello_client_automoc.dir/build.make CMakeFiles/otello_client_automoc.dir/build
 .PHONY : otello_client_automoc/fast
 
+SourceFiles/judgement.o: SourceFiles/judgement.cpp.o
+
+.PHONY : SourceFiles/judgement.o
+
+# target to build an object file
+SourceFiles/judgement.cpp.o:
+	$(MAKE) -f CMakeFiles/otello_client.dir/build.make CMakeFiles/otello_client.dir/SourceFiles/judgement.cpp.o
+.PHONY : SourceFiles/judgement.cpp.o
+
+SourceFiles/judgement.i: SourceFiles/judgement.cpp.i
+
+.PHONY : SourceFiles/judgement.i
+
+# target to preprocess a source file
+SourceFiles/judgement.cpp.i:
+	$(MAKE) -f CMakeFiles/otello_client.dir/build.make CMakeFiles/otello_client.dir/SourceFiles/judgement.cpp.i
+.PHONY : SourceFiles/judgement.cpp.i
+
+SourceFiles/judgement.s: SourceFiles/judgement.cpp.s
+
+.PHONY : SourceFiles/judgement.s
+
+# target to generate assembly for a file
+SourceFiles/judgement.cpp.s:
+	$(MAKE) -f CMakeFiles/otello_client.dir/build.make CMakeFiles/otello_client.dir/SourceFiles/judgement.cpp.s
+.PHONY : SourceFiles/judgement.cpp.s
+
+SourceFiles/loginmenu.o: SourceFiles/loginmenu.cpp.o
+
+.PHONY : SourceFiles/loginmenu.o
+
+# target to build an object file
+SourceFiles/loginmenu.cpp.o:
+	$(MAKE) -f CMakeFiles/otello_client.dir/build.make CMakeFiles/otello_client.dir/SourceFiles/loginmenu.cpp.o
+.PHONY : SourceFiles/loginmenu.cpp.o
+
+SourceFiles/loginmenu.i: SourceFiles/loginmenu.cpp.i
+
+.PHONY : SourceFiles/loginmenu.i
+
+# target to preprocess a source file
+SourceFiles/loginmenu.cpp.i:
+	$(MAKE) -f CMakeFiles/otello_client.dir/build.make CMakeFiles/otello_client.dir/SourceFiles/loginmenu.cpp.i
+.PHONY : SourceFiles/loginmenu.cpp.i
+
+SourceFiles/loginmenu.s: SourceFiles/loginmenu.cpp.s
+
+.PHONY : SourceFiles/loginmenu.s
+
+# target to generate assembly for a file
+SourceFiles/loginmenu.cpp.s:
+	$(MAKE) -f CMakeFiles/otello_client.dir/build.make CMakeFiles/otello_client.dir/SourceFiles/loginmenu.cpp.s
+.PHONY : SourceFiles/loginmenu.cpp.s
+
 SourceFiles/otelloboard.o: SourceFiles/otelloboard.cpp.o
 
 .PHONY : SourceFiles/otelloboard.o
@@ -227,6 +281,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... otello_client"
 	@echo "... otello_client_automoc"
+	@echo "... SourceFiles/judgement.o"
+	@echo "... SourceFiles/judgement.i"
+	@echo "... SourceFiles/judgement.s"
+	@echo "... SourceFiles/loginmenu.o"
+	@echo "... SourceFiles/loginmenu.i"
+	@echo "... SourceFiles/loginmenu.s"
 	@echo "... SourceFiles/otelloboard.o"
 	@echo "... SourceFiles/otelloboard.i"
 	@echo "... SourceFiles/otelloboard.s"
