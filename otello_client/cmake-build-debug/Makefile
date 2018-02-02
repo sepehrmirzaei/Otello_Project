@@ -136,6 +136,60 @@ otello_client_automoc/fast:
 	$(MAKE) -f CMakeFiles/otello_client_automoc.dir/build.make CMakeFiles/otello_client_automoc.dir/build
 .PHONY : otello_client_automoc/fast
 
+SourceFiles/AI.o: SourceFiles/AI.cpp.o
+
+.PHONY : SourceFiles/AI.o
+
+# target to build an object file
+SourceFiles/AI.cpp.o:
+	$(MAKE) -f CMakeFiles/otello_client.dir/build.make CMakeFiles/otello_client.dir/SourceFiles/AI.cpp.o
+.PHONY : SourceFiles/AI.cpp.o
+
+SourceFiles/AI.i: SourceFiles/AI.cpp.i
+
+.PHONY : SourceFiles/AI.i
+
+# target to preprocess a source file
+SourceFiles/AI.cpp.i:
+	$(MAKE) -f CMakeFiles/otello_client.dir/build.make CMakeFiles/otello_client.dir/SourceFiles/AI.cpp.i
+.PHONY : SourceFiles/AI.cpp.i
+
+SourceFiles/AI.s: SourceFiles/AI.cpp.s
+
+.PHONY : SourceFiles/AI.s
+
+# target to generate assembly for a file
+SourceFiles/AI.cpp.s:
+	$(MAKE) -f CMakeFiles/otello_client.dir/build.make CMakeFiles/otello_client.dir/SourceFiles/AI.cpp.s
+.PHONY : SourceFiles/AI.cpp.s
+
+SourceFiles/base.o: SourceFiles/base.cpp.o
+
+.PHONY : SourceFiles/base.o
+
+# target to build an object file
+SourceFiles/base.cpp.o:
+	$(MAKE) -f CMakeFiles/otello_client.dir/build.make CMakeFiles/otello_client.dir/SourceFiles/base.cpp.o
+.PHONY : SourceFiles/base.cpp.o
+
+SourceFiles/base.i: SourceFiles/base.cpp.i
+
+.PHONY : SourceFiles/base.i
+
+# target to preprocess a source file
+SourceFiles/base.cpp.i:
+	$(MAKE) -f CMakeFiles/otello_client.dir/build.make CMakeFiles/otello_client.dir/SourceFiles/base.cpp.i
+.PHONY : SourceFiles/base.cpp.i
+
+SourceFiles/base.s: SourceFiles/base.cpp.s
+
+.PHONY : SourceFiles/base.s
+
+# target to generate assembly for a file
+SourceFiles/base.cpp.s:
+	$(MAKE) -f CMakeFiles/otello_client.dir/build.make CMakeFiles/otello_client.dir/SourceFiles/base.cpp.s
+.PHONY : SourceFiles/base.cpp.s
+
 SourceFiles/judgement.o: SourceFiles/judgement.cpp.o
 
 .PHONY : SourceFiles/judgement.o
@@ -281,6 +335,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... otello_client"
 	@echo "... otello_client_automoc"
+	@echo "... SourceFiles/AI.o"
+	@echo "... SourceFiles/AI.i"
+	@echo "... SourceFiles/AI.s"
+	@echo "... SourceFiles/base.o"
+	@echo "... SourceFiles/base.i"
+	@echo "... SourceFiles/base.s"
 	@echo "... SourceFiles/judgement.o"
 	@echo "... SourceFiles/judgement.i"
 	@echo "... SourceFiles/judgement.s"

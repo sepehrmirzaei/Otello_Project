@@ -1,15 +1,15 @@
 #include <iostream>
 #include <QApplication>
 #include <QWidget>
-#include "HeaderFiles/otelloboard.h"
-#include "HeaderFiles/loginmenu.h"
+//#include "HeaderFiles/otelloboard.h"
+//#include "HeaderFiles/loginmenu.h"
+#include "HeaderFiles/base.h"
 int main(int argc,char **argv)
 {
     QApplication app(argc,argv);
-    OtelloBoard *sample=new OtelloBoard;
-    sample->show();
+    Base *sample=new Base;
 
-    LoginMenu *samlpe2=new LoginMenu;
+
 
     return app.exec();
 }

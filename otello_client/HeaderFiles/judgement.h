@@ -10,16 +10,16 @@
 class Judgement: QObject{
     Q_OBJECT
 public:
-    Judgement(int ,int,QString);
+    Judgement(QString);
 
-    bool AbilityToMove();
-    bool MakeScore(int , int);
-    bool CheckDistance(int , int);
+    bool AbilityToMove(int [8][8]);
+    //bool MakeScore(int , int);
+    //bool CheckDistance(int , int);
     bool SuddenDeath();
     bool EnemyTurn();
 
 private:
-    QString turnToMove;
+    QString TurnToMove;
 
 
 };
