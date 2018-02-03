@@ -56,6 +56,12 @@ QtCore/QString
 judgement.h
 ../HeaderFiles/judgement.h
 
+../HeaderFiles/connecting.h
+QObject
+-
+QHostAddress
+-
+
 ../HeaderFiles/judgement.h
 QtCore/QObject
 -
@@ -99,6 +105,8 @@ QHeaderView
 -
 judgement.h
 ../HeaderFiles/judgement.h
+connecting.h
+../HeaderFiles/connecting.h
 AI.h
 ../HeaderFiles/AI.h
 
@@ -1218,6 +1226,10 @@ QtGui/qtguiglobal.h
 qhostaddress.h
 /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtNetwork/qhostaddress.h
 
+/home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtNetwork/QTcpSocket
+qtcpsocket.h
+/home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtNetwork/qtcpsocket.h
+
 /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtNetwork/qabstractsocket.h
 QtNetwork/qtnetworkglobal.h
 -
@@ -1238,6 +1250,14 @@ QtCore/qstring.h
 QtCore/qscopedpointer.h
 -
 QtNetwork/qabstractsocket.h
+-
+
+/home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtNetwork/qtcpsocket.h
+QtNetwork/qtnetworkglobal.h
+-
+QtNetwork/qabstractsocket.h
+-
+QtCore/qvariant.h
 -
 
 /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtNetwork/qtnetwork-config.h
@@ -1640,6 +1660,12 @@ otelloboard.h
 QtCore/QObject
 -
 
+/home/sepehr007/OtelloProject/otello_client/HeaderFiles/connecting.h
+QObject
+-
+QHostAddress
+-
+
 /home/sepehr007/OtelloProject/otello_client/HeaderFiles/judgement.h
 QtCore/QObject
 -
@@ -1683,6 +1709,8 @@ QHeaderView
 -
 judgement.h
 /home/sepehr007/OtelloProject/otello_client/HeaderFiles/judgement.h
+connecting.h
+/home/sepehr007/OtelloProject/otello_client/HeaderFiles/connecting.h
 AI.h
 /home/sepehr007/OtelloProject/otello_client/HeaderFiles/AI.h
 
@@ -1695,6 +1723,16 @@ HeaderFiles/AI.h
 /home/sepehr007/OtelloProject/otello_client/SourceFiles/base.cpp
 HeaderFiles/base.h
 /home/sepehr007/OtelloProject/otello_client/SourceFiles/HeaderFiles/base.h
+
+/home/sepehr007/OtelloProject/otello_client/SourceFiles/connecting.cpp
+../HeaderFiles/connecting.h
+/home/sepehr007/OtelloProject/otello_client/HeaderFiles/connecting.h
+QHostAddress
+-
+QTcpSocket
+-
+iostream
+-
 
 /home/sepehr007/OtelloProject/otello_client/SourceFiles/judgement.cpp
 HeaderFiles/judgement.h
@@ -1713,6 +1751,14 @@ HeaderFiles/loginmenu.h
 /home/sepehr007/OtelloProject/otello_client/cmake-build-debug/moc_base.cpp
 ../HeaderFiles/base.h
 /home/sepehr007/OtelloProject/otello_client/HeaderFiles/base.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/home/sepehr007/OtelloProject/otello_client/cmake-build-debug/moc_connecting.cpp
+../HeaderFiles/connecting.h
+/home/sepehr007/OtelloProject/otello_client/HeaderFiles/connecting.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
@@ -1745,6 +1791,8 @@ QtCore/qmetatype.h
 /home/sepehr007/OtelloProject/otello_client/cmake-build-debug/otello_client_automoc.cpp
 moc_base.cpp
 /home/sepehr007/OtelloProject/otello_client/cmake-build-debug/moc_base.cpp
+moc_connecting.cpp
+/home/sepehr007/OtelloProject/otello_client/cmake-build-debug/moc_connecting.cpp
 moc_judgement.cpp
 /home/sepehr007/OtelloProject/otello_client/cmake-build-debug/moc_judgement.cpp
 moc_loginmenu.cpp

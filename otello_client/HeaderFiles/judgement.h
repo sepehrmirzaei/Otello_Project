@@ -15,8 +15,7 @@ public:
     bool AbilityToMove(int [8][8]);
     //bool MakeScore(int , int);
     //bool CheckDistance(int , int);
-    bool SuddenDeath();
-    bool EnemyTurn();
+
 
 private:
     QString TurnToMove;

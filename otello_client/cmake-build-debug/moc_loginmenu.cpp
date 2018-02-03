@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_LoginMenu_t {
-    QByteArrayData data[7];
-    char stringdata0[55];
+    QByteArrayData data[8];
+    char stringdata0[69];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -37,11 +37,12 @@ QT_MOC_LITERAL(2, 22, 0), // ""
 QT_MOC_LITERAL(3, 23, 7), // "Usrname"
 QT_MOC_LITERAL(4, 31, 5), // "color"
 QT_MOC_LITERAL(5, 37, 4), // "mode"
-QT_MOC_LITERAL(6, 42, 12) // "requestlogin"
+QT_MOC_LITERAL(6, 42, 13), // "QHostAddress*"
+QT_MOC_LITERAL(7, 56, 12) // "requestlogin"
 
     },
     "LoginMenu\0information\0\0Usrname\0color\0"
-    "mode\0requestlogin"
+    "mode\0QHostAddress*\0requestlogin"
 };
 #undef QT_MOC_LITERAL
 
@@ -59,13 +60,13 @@ static const uint qt_meta_data_LoginMenu[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    3,   24,    2, 0x06 /* Public */,
+       1,    5,   24,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       6,    0,   31,    2, 0x0a /* Public */,
+       7,    0,   35,    2, 0x0a /* Public */,
 
  // signals: parameters
-    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString,    3,    4,    5,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, 0x80000000 | 6, QMetaType::UShort,    3,    4,    5,    2,    2,
 
  // slots: parameters
     QMetaType::Void,
@@ -79,7 +80,7 @@ void LoginMenu::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         LoginMenu *_t = static_cast<LoginMenu *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->information((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3]))); break;
+        case 0: _t->information((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< QHostAddress*(*)>(_a[4])),(*reinterpret_cast< quint16(*)>(_a[5]))); break;
         case 1: _t->requestlogin(); break;
         default: ;
         }
@@ -87,7 +88,7 @@ void LoginMenu::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         int *result = reinterpret_cast<int *>(_a[0]);
         void **func = reinterpret_cast<void **>(_a[1]);
         {
-            typedef void (LoginMenu::*_t)(QString , QString , QString );
+            typedef void (LoginMenu::*_t)(QString , QString , QString , QHostAddress * , quint16 );
             if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&LoginMenu::information)) {
                 *result = 0;
                 return;
@@ -133,9 +134,9 @@ int LoginMenu::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void LoginMenu::information(QString _t1, QString _t2, QString _t3)
+void LoginMenu::information(QString _t1, QString _t2, QString _t3, QHostAddress * _t4, quint16 _t5)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 QT_WARNING_POP

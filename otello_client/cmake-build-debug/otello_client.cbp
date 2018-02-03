@@ -128,6 +128,9 @@
 		<Unit filename="/home/sepehr007/OtelloProject/otello_client/HeaderFiles/base.h">
 			<Option target="otello_client"/>
 		</Unit>
+		<Unit filename="/home/sepehr007/OtelloProject/otello_client/HeaderFiles/connecting.h">
+			<Option target="otello_client"/>
+		</Unit>
 		<Unit filename="/home/sepehr007/OtelloProject/otello_client/HeaderFiles/judgement.h">
 			<Option target="otello_client"/>
 		</Unit>
@@ -141,6 +144,9 @@
 			<Option target="otello_client"/>
 		</Unit>
 		<Unit filename="/home/sepehr007/OtelloProject/otello_client/SourceFiles/base.cpp">
+			<Option target="otello_client"/>
+		</Unit>
+		<Unit filename="/home/sepehr007/OtelloProject/otello_client/SourceFiles/connecting.cpp">
 			<Option target="otello_client"/>
 		</Unit>
 		<Unit filename="/home/sepehr007/OtelloProject/otello_client/SourceFiles/judgement.cpp">

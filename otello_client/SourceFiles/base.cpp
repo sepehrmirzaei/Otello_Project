@@ -6,12 +6,11 @@
 
 Base::Base() {
     login=new LoginMenu();
-    connect(login,SIGNAL(information(QString,QString,QString)),this,SLOT(NewBoard(QString,QString,QString)));
+    connect(login,SIGNAL(information(QString,QString,QString,QHostAddress *,quint16)),this,SLOT(NewBoard(QString,QString,QString,QHostAddress *,quint16)));
 
 
 }
-void Base::NewBoard(QString usrname,QString clr, QString mode) {
-    board=new OtelloBoard(usrname,clr,mode);
+void Base::NewBoard(QString usrname,QString clr, QString mode,QHostAddress * IP,quint16 port) {
+    board=new OtelloBoard(usrname,clr,mode,IP,port);
     board->show();
-
 }

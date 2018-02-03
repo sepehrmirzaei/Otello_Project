@@ -33,7 +33,7 @@ public slots:
 
 
 signals:
-    void information(QString Usrname,QString color,QString mode);
+    void information(QString Usrname,QString color,QString mode,QHostAddress *,quint16);
 private:
     QPushButton *login, *exit;
     QLineEdit *user, *address, *port;

@@ -59,6 +59,7 @@ CMakeFiles/otello_client.dir/SourceFiles/AI.cpp.o
 CMakeFiles/otello_client.dir/SourceFiles/base.cpp.o
  ..//HeaderFiles/base.h
  ../HeaderFiles/AI.h
+ ../HeaderFiles/connecting.h
  ../HeaderFiles/judgement.h
  ../HeaderFiles/loginmenu.h
  ../HeaderFiles/otelloboard.h
@@ -221,6 +222,78 @@ CMakeFiles/otello_client.dir/SourceFiles/base.cpp.o
  /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtWidgets/qtwidgetsglobal.h
  /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtWidgets/qwidget.h
  /home/sepehr007/OtelloProject/otello_client/SourceFiles/base.cpp
+CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.o
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/QObject
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qalgorithms.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qarraydata.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qatomic.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qatomic_bootstrap.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qatomic_cxx11.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qatomic_msvc.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qbasicatomic.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qbytearray.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qbytearraylist.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qchar.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qcompilerdetection.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qconfig-bootstrapped.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qconfig.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qcontainerfwd.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qcontiguouscache.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qcoreevent.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qdebug.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qflags.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qgenericatomic.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qglobal.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qglobalstatic.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qhash.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qhashfunctions.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qiodevice.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qiterator.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qlist.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qlocale.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qlogging.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qmap.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qmetatype.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qmutex.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qnamespace.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qnumeric.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qobject.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qobject_impl.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qobjectdefs.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qobjectdefs_impl.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qpair.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qpoint.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qprocessordetection.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qrefcount.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qregexp.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qscopedpointer.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qset.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qshareddata.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qsharedpointer.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qsharedpointer_impl.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qstring.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qstringbuilder.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qstringlist.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qstringmatcher.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qsysinfo.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qsystemdetection.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qtcore-config.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qtextstream.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qtypeinfo.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qtypetraits.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qvariant.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qvarlengtharray.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qvector.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/qversiontagging.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtNetwork/QHostAddress
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtNetwork/QTcpSocket
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtNetwork/qabstractsocket.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtNetwork/qhostaddress.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtNetwork/qtcpsocket.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtNetwork/qtnetwork-config.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtNetwork/qtnetworkglobal.h
+ /home/sepehr007/OtelloProject/otello_client/HeaderFiles/connecting.h
+ /home/sepehr007/OtelloProject/otello_client/SourceFiles/connecting.cpp
 CMakeFiles/otello_client.dir/SourceFiles/judgement.cpp.o
  ..//HeaderFiles/judgement.h
  /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtCore/QObject
@@ -524,6 +597,11 @@ CMakeFiles/otello_client.dir/SourceFiles/otelloboard.cpp.o
  /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtGui/qvector2d.h
  /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtGui/qwindowdefs.h
  /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtGui/qwindowdefs_win.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtNetwork/QHostAddress
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtNetwork/qabstractsocket.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtNetwork/qhostaddress.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtNetwork/qtnetwork-config.h
+ /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtNetwork/qtnetworkglobal.h
  /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtWidgets/QHBoxLayout
  /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtWidgets/QHeaderView
  /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtWidgets/QTableWidget
@@ -552,6 +630,7 @@ CMakeFiles/otello_client.dir/SourceFiles/otelloboard.cpp.o
  /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtWidgets/qtwidgetsglobal.h
  /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtWidgets/qwidget.h
  /home/sepehr007/OtelloProject/otello_client/HeaderFiles/AI.h
+ /home/sepehr007/OtelloProject/otello_client/HeaderFiles/connecting.h
  /home/sepehr007/OtelloProject/otello_client/HeaderFiles/judgement.h
  /home/sepehr007/OtelloProject/otello_client/HeaderFiles/otelloboard.h
  /home/sepehr007/OtelloProject/otello_client/SourceFiles/otelloboard.cpp
@@ -722,6 +801,7 @@ CMakeFiles/otello_client.dir/main.cpp.o
  /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtWidgets/qwidget.h
  /home/sepehr007/OtelloProject/otello_client/HeaderFiles/AI.h
  /home/sepehr007/OtelloProject/otello_client/HeaderFiles/base.h
+ /home/sepehr007/OtelloProject/otello_client/HeaderFiles/connecting.h
  /home/sepehr007/OtelloProject/otello_client/HeaderFiles/judgement.h
  /home/sepehr007/OtelloProject/otello_client/HeaderFiles/loginmenu.h
  /home/sepehr007/OtelloProject/otello_client/HeaderFiles/otelloboard.h
@@ -887,10 +967,12 @@ CMakeFiles/otello_client.dir/otello_client_automoc.cpp.o
  /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/include/QtWidgets/qwidget.h
  /home/sepehr007/OtelloProject/otello_client/HeaderFiles/AI.h
  /home/sepehr007/OtelloProject/otello_client/HeaderFiles/base.h
+ /home/sepehr007/OtelloProject/otello_client/HeaderFiles/connecting.h
  /home/sepehr007/OtelloProject/otello_client/HeaderFiles/judgement.h
  /home/sepehr007/OtelloProject/otello_client/HeaderFiles/loginmenu.h
  /home/sepehr007/OtelloProject/otello_client/HeaderFiles/otelloboard.h
  /home/sepehr007/OtelloProject/otello_client/cmake-build-debug/moc_base.cpp
+ /home/sepehr007/OtelloProject/otello_client/cmake-build-debug/moc_connecting.cpp
  /home/sepehr007/OtelloProject/otello_client/cmake-build-debug/moc_judgement.cpp
  /home/sepehr007/OtelloProject/otello_client/cmake-build-debug/moc_loginmenu.cpp
  /home/sepehr007/OtelloProject/otello_client/cmake-build-debug/moc_otelloboard.cpp

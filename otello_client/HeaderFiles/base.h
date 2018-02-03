@@ -15,7 +15,7 @@ public:
     Base();
 
 public slots:
-    void NewBoard(QString,QString,QString);
+    void NewBoard(QString,QString,QString,QHostAddress *,quint16);
 private:
     LoginMenu *login;
     OtelloBoard *board;

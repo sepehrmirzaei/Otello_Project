@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_Base_t {
-    QByteArrayData data[3];
-    char stringdata0[15];
+    QByteArrayData data[4];
+    char stringdata0[29];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -33,10 +33,11 @@ static const qt_meta_stringdata_Base_t qt_meta_stringdata_Base = {
     {
 QT_MOC_LITERAL(0, 0, 4), // "Base"
 QT_MOC_LITERAL(1, 5, 8), // "NewBoard"
-QT_MOC_LITERAL(2, 14, 0) // ""
+QT_MOC_LITERAL(2, 14, 0), // ""
+QT_MOC_LITERAL(3, 15, 13) // "QHostAddress*"
 
     },
-    "Base\0NewBoard\0"
+    "Base\0NewBoard\0\0QHostAddress*"
 };
 #undef QT_MOC_LITERAL
 
@@ -54,10 +55,10 @@ static const uint qt_meta_data_Base[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    3,   19,    2, 0x0a /* Public */,
+       1,    5,   19,    2, 0x0a /* Public */,
 
  // slots: parameters
-    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString,    2,    2,    2,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, 0x80000000 | 3, QMetaType::UShort,    2,    2,    2,    2,    2,
 
        0        // eod
 };
@@ -68,7 +69,7 @@ void Base::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void *
         Base *_t = static_cast<Base *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->NewBoard((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3]))); break;
+        case 0: _t->NewBoard((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< QHostAddress*(*)>(_a[4])),(*reinterpret_cast< quint16(*)>(_a[5]))); break;
         default: ;
         }
     }

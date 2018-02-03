@@ -10,11 +10,12 @@
 #include <QHBoxLayout>
 #include <QHeaderView>
 #include "judgement.h"
+#include "connecting.h"
 #include "AI.h"
 class OtelloBoard : public QWidget{
 Q_OBJECT
 public:
-    OtelloBoard(QString usrname,QString usrcolor,QString playmode);
+    OtelloBoard(QString usrname,QString usrcolor,QString playmode,QHostAddress* IP,quint16 port);
     void SetCoin(int i,int j,QString type);
     void SetOffers();
     void OpeningBoard();
@@ -24,15 +25,21 @@ public:
 
 public slots:
     void mouseClicking(int i,int j);
+    void OnlineModeSend(int ,int);
+    void OnlineMoveGive(QString);
 private:
     int mMap[8][8];
     int nomove;
+    Connection * connector;
     QTableWidget *mGameTable;
     void SetMapFirstValue();
     //Judgement *judge;
     QString UsrColor;
     QString TurnColor;
-    QString PlayMode;       // cpu or client
+    QString PlayMode;
+    QString UserName;
+    QHostAddress* IP;
+    quint16 Port;
 };
 
 #endif //OTELLOPROJECT_OTELLOBOARD_H

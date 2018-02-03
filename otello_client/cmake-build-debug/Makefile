@@ -190,6 +190,33 @@ SourceFiles/base.cpp.s:
 	$(MAKE) -f CMakeFiles/otello_client.dir/build.make CMakeFiles/otello_client.dir/SourceFiles/base.cpp.s
 .PHONY : SourceFiles/base.cpp.s
 
+SourceFiles/connecting.o: SourceFiles/connecting.cpp.o
+
+.PHONY : SourceFiles/connecting.o
+
+# target to build an object file
+SourceFiles/connecting.cpp.o:
+	$(MAKE) -f CMakeFiles/otello_client.dir/build.make CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.o
+.PHONY : SourceFiles/connecting.cpp.o
+
+SourceFiles/connecting.i: SourceFiles/connecting.cpp.i
+
+.PHONY : SourceFiles/connecting.i
+
+# target to preprocess a source file
+SourceFiles/connecting.cpp.i:
+	$(MAKE) -f CMakeFiles/otello_client.dir/build.make CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.i
+.PHONY : SourceFiles/connecting.cpp.i
+
+SourceFiles/connecting.s: SourceFiles/connecting.cpp.s
+
+.PHONY : SourceFiles/connecting.s
+
+# target to generate assembly for a file
+SourceFiles/connecting.cpp.s:
+	$(MAKE) -f CMakeFiles/otello_client.dir/build.make CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.s
+.PHONY : SourceFiles/connecting.cpp.s
+
 SourceFiles/judgement.o: SourceFiles/judgement.cpp.o
 
 .PHONY : SourceFiles/judgement.o
@@ -341,6 +368,9 @@ help:
 	@echo "... SourceFiles/base.o"
 	@echo "... SourceFiles/base.i"
 	@echo "... SourceFiles/base.s"
+	@echo "... SourceFiles/connecting.o"
+	@echo "... SourceFiles/connecting.i"
+	@echo "... SourceFiles/connecting.s"
 	@echo "... SourceFiles/judgement.o"
 	@echo "... SourceFiles/judgement.i"
 	@echo "... SourceFiles/judgement.s"

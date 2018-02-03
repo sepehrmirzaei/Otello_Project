@@ -201,9 +201,33 @@ CMakeFiles/otello_client.dir/SourceFiles/base.cpp.o.provides: CMakeFiles/otello_
 CMakeFiles/otello_client.dir/SourceFiles/base.cpp.o.provides.build: CMakeFiles/otello_client.dir/SourceFiles/base.cpp.o
 
 
+CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.o: CMakeFiles/otello_client.dir/flags.make
+CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.o: ../SourceFiles/connecting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sepehr007/OtelloProject/otello_client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.o -c /home/sepehr007/OtelloProject/otello_client/SourceFiles/connecting.cpp
+
+CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sepehr007/OtelloProject/otello_client/SourceFiles/connecting.cpp > CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.i
+
+CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sepehr007/OtelloProject/otello_client/SourceFiles/connecting.cpp -o CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.s
+
+CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.o.requires:
+
+.PHONY : CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.o.requires
+
+CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.o.provides: CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.o.requires
+	$(MAKE) -f CMakeFiles/otello_client.dir/build.make CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.o.provides.build
+.PHONY : CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.o.provides
+
+CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.o.provides.build: CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.o
+
+
 CMakeFiles/otello_client.dir/otello_client_automoc.cpp.o: CMakeFiles/otello_client.dir/flags.make
 CMakeFiles/otello_client.dir/otello_client_automoc.cpp.o: otello_client_automoc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sepehr007/OtelloProject/otello_client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/otello_client.dir/otello_client_automoc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sepehr007/OtelloProject/otello_client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/otello_client.dir/otello_client_automoc.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/otello_client.dir/otello_client_automoc.cpp.o -c /home/sepehr007/OtelloProject/otello_client/cmake-build-debug/otello_client_automoc.cpp
 
 CMakeFiles/otello_client.dir/otello_client_automoc.cpp.i: cmake_force
@@ -233,6 +257,7 @@ otello_client_OBJECTS = \
 "CMakeFiles/otello_client.dir/SourceFiles/judgement.cpp.o" \
 "CMakeFiles/otello_client.dir/SourceFiles/AI.cpp.o" \
 "CMakeFiles/otello_client.dir/SourceFiles/base.cpp.o" \
+"CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.o" \
 "CMakeFiles/otello_client.dir/otello_client_automoc.cpp.o"
 
 # External object files for target otello_client
@@ -244,6 +269,7 @@ otello_client: CMakeFiles/otello_client.dir/SourceFiles/loginmenu.cpp.o
 otello_client: CMakeFiles/otello_client.dir/SourceFiles/judgement.cpp.o
 otello_client: CMakeFiles/otello_client.dir/SourceFiles/AI.cpp.o
 otello_client: CMakeFiles/otello_client.dir/SourceFiles/base.cpp.o
+otello_client: CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.o
 otello_client: CMakeFiles/otello_client.dir/otello_client_automoc.cpp.o
 otello_client: CMakeFiles/otello_client.dir/build.make
 otello_client: /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/lib/libQt5Widgets.so.5.8.0
@@ -252,7 +278,7 @@ otello_client: /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/lib/libQt5Gui.so.5.8.0
 otello_client: /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/lib/libQt5Network.so.5.8.0
 otello_client: /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/lib/libQt5Core.so.5.8.0
 otello_client: CMakeFiles/otello_client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sepehr007/OtelloProject/otello_client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable otello_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sepehr007/OtelloProject/otello_client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable otello_client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/otello_client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -266,6 +292,7 @@ CMakeFiles/otello_client.dir/requires: CMakeFiles/otello_client.dir/SourceFiles/
 CMakeFiles/otello_client.dir/requires: CMakeFiles/otello_client.dir/SourceFiles/judgement.cpp.o.requires
 CMakeFiles/otello_client.dir/requires: CMakeFiles/otello_client.dir/SourceFiles/AI.cpp.o.requires
 CMakeFiles/otello_client.dir/requires: CMakeFiles/otello_client.dir/SourceFiles/base.cpp.o.requires
+CMakeFiles/otello_client.dir/requires: CMakeFiles/otello_client.dir/SourceFiles/connecting.cpp.o.requires
 CMakeFiles/otello_client.dir/requires: CMakeFiles/otello_client.dir/otello_client_automoc.cpp.o.requires
 
 .PHONY : CMakeFiles/otello_client.dir/requires

@@ -95,6 +95,7 @@ QGroupBox * LoginMenu::Button(){
 void LoginMenu::requestlogin()
 {
     QString serveraddress=address -> text()=="localhost" ? "127.0.0.1" : address -> text();
+    quint16 myport=port -> text().toUShort();
     //this -> hide();
     UsrName=user->text();
     if(white->isChecked()) {
@@ -109,5 +110,5 @@ void LoginMenu::requestlogin()
     else if(radio2->isChecked()){
         PlayMode="client";
     }
-    emit information(UsrName,UsrColor,PlayMode);
+    emit information(UsrName,UsrColor,PlayMode,new QHostAddress(serveraddress),myport);
 }

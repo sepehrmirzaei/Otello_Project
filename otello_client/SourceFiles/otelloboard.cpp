@@ -4,12 +4,16 @@
 #include "../HeaderFiles/otelloboard.h"
 using namespace std;
 
-OtelloBoard::OtelloBoard(QString usrname,QString usrcolor,QString playmode): QWidget(){
+OtelloBoard::OtelloBoard(QString usrname,QString usrcolor,QString playmode,QHostAddress * ip,quint16 port): QWidget(){
     UsrColor=usrcolor;
     PlayMode=playmode;
     TurnColor="white";
+    IP=ip;
+    Port=port;
+    connector=new Connection(IP,Port);
+    UserName=usrname;
     this->setWindowTitle(usrname);
-
+    connector->sendmessage(usrcolor);
     setGeometry(0,0,480,480);
     nomove=0;
     OpeningBoard();
@@ -155,9 +159,36 @@ void OtelloBoard::Moving(){
                 }
             }
         }
+        else if(PlayMode == "client"){
+            connect(this->mGameTable, SIGNAL(cellPressed(int, int)), this, SLOT(OnlineModeSend(int, int)));
+            connect(connector,SIGNAL(newrecievemessage(QString)),this,SLOT(OnlineMoveGive(QString)));
+        }
     }
     else
         close();
+}
+void OtelloBoard::OnlineModeSend(int i , int j) {
+    QString Data;
+    Data=UsrColor+"-"+QString::number(i)+"-"+QString::number(j);
+    connector->sendmessage(Data);
+
+}
+void OtelloBoard::OnlineMoveGive(QString move) {
+    string mve=move.toUtf8().constData();
+
+    int x=(int)mve[0]-48;
+    int y=(int)mve[1]-48;
+    SetCoin(x,y,TurnColor);
+
+    if(TurnColor=="white"){
+        EatCoin(x,y,1);
+        TurnColor="black";
+    }
+
+    else {
+        EatCoin(x,y,2);
+        TurnColor = "white";
+    }
 }
 
 bool OtelloBoard::FinishCheck() {
